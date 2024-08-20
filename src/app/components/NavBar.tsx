@@ -1,13 +1,13 @@
 import React from 'react';
+import Image from 'next/image';
+import logo from '@/assets/logo.png';
 
 const NavBar = () => {
   return (
     <header className="text-gray-600 body-font">
   <div className=" mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-      </svg>
+      <Image src={logo} className='h-50 w-50' alt='Logo' height={80} width={80} quality={100}/>
       {/* <span className="ml-3 text-xl font-">DURGA ENGINEERS</span> */}
       
       <h1 className="ml-3 text-2xl font-semibold text-gray-900 tracking-wide">
