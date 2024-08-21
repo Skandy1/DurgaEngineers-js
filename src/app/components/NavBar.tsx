@@ -72,11 +72,11 @@ export default function Example() {
                     width={100}
                     alt="Durga Engineers"
                   />
-                  <div className="mt-14 ml-2 font-mono">
+                  <div className="mt-14 ml-2">
                     <h4 className="text-2xl text-gray-900">
-                      Durga Electronics
+                      Durga Engineers
                     </h4>
-                    <p className="text-sm text-indigo-600">
+                    <p className="text-sm text-red-600">
                       {/* Software Engineer @Oracle */}
                     </p>
                   </div>
@@ -93,7 +93,7 @@ export default function Example() {
                         }}
                         className={classNames(
                           page.href === path
-                            ? "border-indigo-600 text-indigo-600"
+                            ? "border-red-600 text-red-600"
                             : "border-transparent text-gray-700 hover:text-gray-800",
                           "flex items-center text-sm font-medium relative z-10 "
                         )}
@@ -146,7 +146,7 @@ export default function Example() {
                     width={60}
                   />
                   <span className="ml-4 text-2xl font-semibold text-gray-900">
-                    Durga Electronics
+                    Durga Engineers
                   </span>
                 </div>
               </div>
@@ -160,7 +160,7 @@ export default function Example() {
                       href={page.href}
                       className={classNames(
                         page.href === path
-                          ? "border-indigo-600 text-indigo-600"
+                          ? "border-red-600 text-red-600"
                           : "border-transparent text-gray-700 hover:text-gray-800",
                         "flex items-center text-sm font-medium relative z-10 border-b-2 transition-all"
                       )}
