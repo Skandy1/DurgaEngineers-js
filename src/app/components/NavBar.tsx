@@ -9,9 +9,9 @@ import { usePathname } from "next/navigation";
 
 const pages = [
   { name: "Home", href: "/" },
-  { name: "About us", href: "/about" },
   { name: "Products & Services", href: "/products" },
   { name: "Milestones", href: "/milestones" },
+  { name: "About us", href: "/about" },
 ];
 
 function classNames(...classes: string[]) {
@@ -23,8 +23,6 @@ export default function Example() {
   const [open, setOpen] = useState(false);
   return (
     <div className="bg-white">
-      {/* Mobile menu */}
-      {/* Mobile menu */}
       <Transition.Root show={open} as={Fragment}>
         <Dialog as="div" className="relative z-40 lg:hidden" onClose={setOpen}>
           <Transition.Child
@@ -73,9 +71,7 @@ export default function Example() {
                     alt="Durga Engineers"
                   />
                   <div className="mt-14 ml-2">
-                    <h4 className="text-2xl text-gray-900">
-                      Durga Engineers
-                    </h4>
+                    <h4 className="text-2xl text-gray-900">Durga Engineers</h4>
                     <p className="text-sm text-red-600">
                       {/* Software Engineer @Oracle */}
                     </p>
