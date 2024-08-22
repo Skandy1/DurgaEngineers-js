@@ -20,8 +20,8 @@ const Expertise = () => {
               expertise in fire protection and safety solutions. Our extensive
               experience in the industry, combined with our in-depth knowledge
               of fire safety regulations, ensures that we deliver comprehensive,
-              customized, and compliant systems. Here's why our expertise stands
-              out:
+              customized, and compliant systems. Here is why our expertise
+              stands out:
             </p>
           </div>
         </div>
