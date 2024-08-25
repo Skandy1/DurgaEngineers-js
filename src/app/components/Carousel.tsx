@@ -10,10 +10,10 @@ import Image from "next/image";
 import React from "react";
 import Autoplay from "embla-carousel-autoplay";
 import { motion } from "framer-motion";
-import firstSlide from "@/assets/firstSlide.jpeg";
+import firstSlide from "@/assets/firstSlide.jpg";
 import secondSlide from "@/assets/secondSlide.jpeg";
-import thirdSlide from "@/assets/third.jpg";
-import fourthSlide from "@/assets/fourth.jpg";
+import thirdSlide from "@/assets/third.jpeg";
+import fourthSlide from "@/assets/fourthSlide.png";
 import Link from "next/link";
 
 const CarouselBannerWrapper = () => {
@@ -59,8 +59,7 @@ const CarouselBannerWrapper = () => {
           >
             <h1 className="text-4xl font-bold">20+ Satisfied Customers</h1>
             <p className="mt-4 text-lg">
-              Providing tailored fire and security systems for every
-              environment.
+              Providing effective fire security systems for clients locations.
             </p>
             <Link href="/product">
               <motion.button
@@ -88,8 +87,8 @@ const CarouselBannerWrapper = () => {
           >
             <h1 className="text-4xl font-bold">Expert Consultancy Services</h1>
             <p className="mt-4 text-lg">
-              Ensuring your fire protection systems meet national and
-              international standards.
+              Ensuring your fire protection systems meet all the safety
+              standards.
             </p>
             <motion.button
               initial={{ opacity: 0 }}
@@ -113,7 +112,7 @@ const CarouselBannerWrapper = () => {
             transition={{ duration: 1 }}
             className="text-white"
           >
-            <h1 className="text-4xl font-bold">Round-the-Clock Maintenance</h1>
+            <h1 className="text-4xl font-bold">Periodic Maintenance</h1>
             <p className="mt-4 text-lg">
               Keep your fire systems fully operational with our Annual
               Maintenance Contracts (AMC).
@@ -158,6 +157,7 @@ const CarouselBannerWrapper = () => {
                     alt={`slider-image-${index}`}
                     height={800} // Updated height for desktop view
                     width={2000}
+                    quality={100}
                     className="h-80 sm:h-[30rem] w-full object-cover" // Adjusted height for mobile and desktop
                   />
                   <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-transparent"></div>
