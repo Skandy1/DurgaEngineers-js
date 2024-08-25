@@ -69,7 +69,7 @@ const ContactForm = () => {
         theme="light"
       />
       <div className="relative mb-4">
-        <label htmlFor="name" className="leading-7 text-sm text-gray-700">
+        <label htmlFor="name" className="leading-7 text-sm text-red-400">
           Name
         </label>
         <input
@@ -83,7 +83,7 @@ const ContactForm = () => {
       </div>
 
       <div className="relative mb-4">
-        <label htmlFor="phone" className="leading-7 text-sm text-gray-700">
+        <label htmlFor="phone" className="leading-7 text-sm text-red-400">
           Phone Number
         </label>
         <input
@@ -96,7 +96,7 @@ const ContactForm = () => {
         />
       </div>
       <div className="relative mb-4">
-        <label htmlFor="email" className="leading-7 text-sm text-gray-700">
+        <label htmlFor="email" className="leading-7 text-sm text-red-400">
           Email
         </label>
         <input
@@ -109,7 +109,7 @@ const ContactForm = () => {
         />
       </div>
       <div className="relative mb-4">
-        <label htmlFor="message" className="leading-7 text-sm text-gray-700">
+        <label htmlFor="message" className="leading-7 text-sm text-red-400">
           How can we help you?
         </label>
         <textarea

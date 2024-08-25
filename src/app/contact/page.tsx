@@ -9,18 +9,17 @@ const page = () => {
         <section className="text-gray-900 bg-white body-font relative">
           <div className="container px-5 py-10 mx-auto">
             <div className="flex flex-col text-center w-full mb-20">
-              <h2 className="text-xs text-red-400 tracking-widest font-medium title-font mb-1 mt-4">
-                Interested in discussing electronic solutions, product
-                offerings, or potential collaborations?
+              <h2 className=" text-red-400 tracking-widest font-medium title-font mb-1 mt-4">
+                Interested in discussing fire protection solutions ?
               </h2>
-              <h1 className="sm:text-3xl text-red-500 text-2xl font-medium title-font mb-4 ">
-                For inquiries related to our electronic products, custom
-                solutions, or collaboration opportunities, we would be happy to
-                connect.
+              <h1 className="sm:text-3xl sm:w-4/5 text-red-500 text-2xl font-medium title-font mb-4 text-center mx-auto">
+                For inquiries related to our fire protection systems and
+                solution, we would be happy to connect.
               </h1>
+
               <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-700">
                 Feel free to reach out to discuss partnerships or how we can
-                assist with your electronics needs.
+                assist with your fire protection needs.
               </p>
             </div>
           </div>
@@ -71,7 +70,7 @@ const page = () => {
             <div className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
               <p className="leading-relaxed mb-5">
                 If you prefer, you can also fill out the contact form below, and
-                I will get back to you as soon as possible:
+                We will get back to you as soon as possible:
               </p>
               <ContactForm />
               <p className="text-xs text-gray-600 text-opacity-90 mt-3">
