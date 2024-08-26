@@ -16,12 +16,12 @@ const Expertise = () => {
               Our Expertise
             </h1>
             <p className="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0 font-medium">
-              At Durga Engineers, we pride ourselves on offering unparalleled
-              expertise in fire protection and safety solutions. Our extensive
-              experience in the industry, combined with our in-depth knowledge
-              of fire safety regulations, ensures that we deliver comprehensive,
-              customized, and compliant systems. Here is why our expertise
-              stands out:
+              At Durga Engineers, we are proud to offer competitive, reliable,
+              and unparalleled expertise in fire protection and safety
+              solutions. Our extensive experience in the industry, combined with
+              our in-depth knowledge of fire safety regulations, ensures that we
+              deliver comprehensive, customized, and compliant systems. Here is
+              why our expertise stands out:
             </p>
           </div>
         </div>
@@ -80,10 +80,10 @@ const Expertise = () => {
                       Customized Fire Protection Systems
                     </h2>
                     <p className="leading-relaxed">
-                      We tailor our fire safety solutions to meet the specific
-                      requirements of different environments, from commercial
-                      spaces to industrial facilities, ensuring optimal
-                      protection.
+                      Our fire safety solutions are specifically designed to fit
+                      the needs of various situations, including commercial
+                      spaces and industrial facilities, to provide the best
+                      possible protection.
                     </p>
                   </div>
                 </div>
@@ -136,7 +136,7 @@ const Expertise = () => {
                   </div>
                   <div className="flex-grow pl-4">
                     <h2 className="font-semibold title-font text-sm text-red-500 mb-1 tracking-wider">
-                      Cutting-Edge Technology
+                      Adopting best cutting-edge technology
                     </h2>
                     <p className="leading-relaxed">
                       We integrate the latest fire protection technologies to

@@ -54,8 +54,8 @@ const HeroSection = () => {
           <p className="mb-8 leading-relaxed text-justify">
             At Durga Engineers, we are committed to providing reliable,
             end-to-end fire protection and security solutions for a wide variety
-            of industries. With years of experience and a strong team of
-            professionals, we offer a blend of expertise, quality, and
+            of industries. With a strong team of professionals with decades of
+            experience, we offer a blend of expertise, quality, and
             affordability. Our mission is to safeguard lives and assets by
             providing robust fire fighting systems, consultancy services, and
             ongoing maintenance through our Annual Maintenance Contracts (AMC).
