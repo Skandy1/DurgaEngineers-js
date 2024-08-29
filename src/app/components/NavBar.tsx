@@ -9,7 +9,7 @@ import { usePathname } from "next/navigation";
 
 const pages = [
   { name: "Home", href: "/" },
-  { name: "Products & Services", href: "/products" },
+  { name: "Services", href: "/services" },
   { name: "Milestones", href: "/milestones" },
   { name: "About us", href: "/about" },
 ];
