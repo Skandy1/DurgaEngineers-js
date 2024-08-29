@@ -54,7 +54,7 @@ const page = () => {
       <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"/>
     </div>
     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-green-600">“ Raghavendra E O “
+      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">“Raghavendra E O“
       </h1>
       <p className="mb-8 leading-relaxed text-justify text-gray-900">He comes with a decade of experience in the firefighting industry, having worked in Qatar and Saudi Arabia as a project manager in operations for Armour Fire Fighting Company LLC. Co. and Arab Projects for Safety Co. Ltd.
         <br/>
