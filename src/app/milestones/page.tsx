@@ -25,29 +25,41 @@ ChartJS.register(
   Legend
 );
 
-// Custom formatter for lakhs and crores in tooltip
+// Custom formatter for lakhs and crores in tooltip and Y-axis
 const formatIndianCurrency = (value: number) => {
-  if (value >= 10000000) return (value / 10000000).toFixed(1) + " Cr"; // Format in Crores
-  if (value >= 100000) return (value / 100000).toFixed(1) + " Lakh"; // Format in Lakhs
-  return value.toString(); // Otherwise show the value as it is
+  if (value >= 10000000) {
+    let crores = (value / 10000000).toFixed(1); // Convert to crores
+    if (crores.endsWith(".0")) crores = crores.slice(0, -2); // Remove ".0"
+    return "₹" + crores + " Cr"; // Return formatted Crore value
+  }
+  if (value >= 100000) return "₹" + (value / 100000).toFixed(1) + " Lakh"; // Format in Lakhs
+  return "₹" + value.toString(); // Otherwise show the value as it is
 };
 
 export default function Home() {
   // Data for the chart
   const [data, setData] = useState<any>({
-    labels: ["2019", "2020", "2021", "2022", "2023", "2024"], // Years
+    labels: ["2019", "2020", "2021", "2022", "2023", "2024", "2025"], // Years
     datasets: [
       {
         label: "Total Value",
+        // borderWidth: 4,
         data: [3000000, 13892213, 14554659, 10310000, 14306242, 36580000], // Values
-        borderColor: "rgba(255, 0, 0, 1)", // Red for line color
+        borderColor: "#4169e1", // Blue for line color
         backgroundColor: "rgba(255, 0, 0, 0.2)", // Light red fill under line
-        fill: true,
+        // fill: true,
+        // pointRadius: (context: any) => {
+        //   // Highlight first and last point, others smaller
+        //   const index = context.dataIndex;
+        //   const isLast = index === data.datasets[0].data.length - 1;
+        //   const isFirst = index === 0;
+        //   return isFirst || isLast ? 6 : 0;
+        // },
       },
     ],
   });
 
-  // Chart options with Y-axis labels hidden and tooltips enabled
+  // Chart options with Y-axis data formatted in Lakhs/Crores, and points shown only on hover
   const options: any = {
     responsive: true,
     plugins: {
@@ -73,14 +85,30 @@ export default function Home() {
         ticks: {
           color: "#000000", // Black for x-axis labels
         },
+        grid: {
+          display: false,
+          drawBorder: true, // Optionally remove y-axis line
+        },
       },
       y: {
         ticks: {
-          display: true, // Hide Y-axis labels
+          callback: (value: number) => formatIndianCurrency(value), // Format Y-axis labels in Lakhs/Crores
+          color: "#000000", // Black for y-axis labels
+          font: {
+            size: 14, // Increase the font size of Y-axis numbers
+            weight: "bold", // Bold the Y-axis numbers
+          },
         },
         grid: {
-          drawBorder: false, // Optionally remove y-axis line
+          display: false,
+          drawBorder: true, // Optionally remove y-axis line
         },
+      },
+    },
+    elements: {
+      point: {
+        radius: 6, // Hide points by default except first and last
+        hoverRadius: 8, // Radius on hover for other points
       },
     },
   };
@@ -90,7 +118,7 @@ export default function Home() {
       {/* Heading Section */}
       <div className="text-center my-12 px-4">
         <h1 className="text-4xl font-bold text-red-600 mb-4">
-          Financial Growth Overview
+          Milestones Achieved
         </h1>
         <p className="text-gray-800">
           This report outlines the consistent growth in total project values

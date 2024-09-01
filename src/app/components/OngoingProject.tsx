@@ -5,12 +5,12 @@ const projects = [
   {
     projectName: "THE GREENS",
     location: "ANEKAL, BENGALURU",
-    client: "SANCHAYA ESTATES",
+    // client: "SANCHAYA ESTATES",
     projectValue: "₹ 3.7 crore",
-    contactPerson: {
-      name: "Mr Nagaraj",
-      phone: "9876543210",
-    },
+    // contactPerson: {
+    //   name: "Mr Nagaraj",
+    //   phone: "9876543210",
+    // },
     projectDetails: [
       { label: "No of Blocks", value: "17 Blocks + Club House" },
       { label: "No of Floors", value: "Ground + 9 Floors" },
@@ -61,18 +61,18 @@ const OngoingProject = () => {
                     <h1 className="title-font text-lg font-medium text-gray-900 mb-2">
                       {project.projectName}
                     </h1>
-                    <p className="leading-relaxed mb-2 text-black">
-                      <strong>Client:</strong> {project.client}
+                    {/* <p className="leading-relaxed mb-2 text-black">
+                      <strong>Client:</strong> {project?.client}
                       <br />
                       <strong>Contact Person:</strong>{" "}
-                      {project.contactPerson.name}
-                      {project.contactPerson.phone && (
+                      {project?.contactPerson?.name}
+                      {project?.contactPerson?.phone && (
                         <>
                           <br />
                           <strong>Phone:</strong> {project.contactPerson.phone}
                         </>
                       )}
-                    </p>
+                    </p> */}
                     <div className="leading-relaxed mb-2 text-gray-900">
                       {project.projectDetails.map((detail, idx) => (
                         <p key={idx}>
