@@ -66,7 +66,7 @@ const projects = [
   },
   {
     projectName: "SJR PALAZZA CITY CLUB HOUSE",
-    location: "SARJAPURA ROAD BENGALURU",
+    location: "SARJAPURA ROAD, BENGALURU",
     client: "SJR PRIMECORPORATION PVT LTD",
     projectValue: "₹ 1.13 Cr",
     contactPerson: {
@@ -120,7 +120,7 @@ const projects = [
   },
   {
     projectName: "KARNATAKA STATE POLICE TRAINING SCHOOL",
-    location: "JYOTHI NAGAR MYSORE",
+    location: "JYOTHI NAGAR, MYSORE",
     client: "VINODKUMAR CONSTRUCTIONS",
     projectValue: "₹ 20 L",
     contactPerson: {
@@ -137,7 +137,7 @@ const projects = [
   },
   {
     projectName: "AKSHAYA  REGALIA",
-    location: "UTTARA HALLI BENGALURU",
+    location: "UTTARA HALLI, BENGALURU",
     client: "AKSHAYA REGALIA.A.O A BENGALURU",
     projectValue: "₹ 8 L",
     contactPerson: {
@@ -154,7 +154,7 @@ const projects = [
   },
   {
     projectName: "SJR  VOGUE RESIDENCES",
-    location: "WHITEFIELD BENGALURU",
+    location: "WHITEFIELD, BENGALURU",
     client: "SJR PRIMECORPORATION PVT LTD",
     projectValue: "₹ 19 L",
     contactPerson: {
@@ -170,7 +170,7 @@ const projects = [
   },
   {
     projectName: "UNION CITY",
-    location: "WHITEFIELD BENGALURU",
+    location: "WHITEFIELD, BENGALURU",
     client: "PRIMECO BENGALURU",
     projectValue: "₹ 33 L",
     contactPerson: {
@@ -190,7 +190,7 @@ const projects = [
   },
   {
     projectName: "SPECTRUM HOTEL BLOCK",
-    location: "BANNERAGHATTA ROAD BENGALURU",
+    location: "BANNERAGHATTA ROAD, BENGALURU",
     client: "PRIMECO BENGALURU",
     projectValue: "₹ 81 L",
     contactPerson: {
@@ -207,7 +207,7 @@ const projects = [
   },
   {
     projectName: "SJR PALAZZA CITY",
-    location: "SARJAPURA ROAD BENGALURU",
+    location: "SARJAPURA ROAD, BENGALURU",
     client: "SJR PRIMECORPORATION PVT LTD",
     projectValue: "₹ 21 L",
     contactPerson: {
