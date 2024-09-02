@@ -16,9 +16,9 @@ import Image from "next/image";
 const projects = [
   {
     projectName: "BATA INDIA LTD",
-    location: "SIPCOT HOSUR TAMIL NADU",
+    location: "SIPCOT HOSUR, TAMIL NADU",
     client: "MEGATRON SOLUTIONS PVT LTD BENGALURU",
-    projectValue: "₹ 32 lakhs",
+    projectValue: "₹ 32 L",
     contactPerson: {
       name: "Mr Mahesh Hegde",
       phone: "+91-98450 42655",
@@ -34,7 +34,7 @@ const projects = [
     projectName: "SJR BLUE WATER",
     location: "HARALURU, BENGALURU",
     client: "SJR PRIMECORP BENGALURU",
-    projectValue: "₹ 86 lakhs",
+    projectValue: "₹ 86 L",
     contactPerson: {
       name: "Mr Rajendra Kumar",
       phone: "+91-8618275906",
@@ -51,7 +51,7 @@ const projects = [
     projectName: "SJR HAMILTON HOMES",
     location: "RAYASANDRA, BENGALURU",
     client: "SJR PRIMECORP BENGALURU",
-    projectValue: "₹ 72 lakhs",
+    projectValue: "₹ 72 L",
     contactPerson: {
       name: "Mr Rajendra Kumar",
       phone: "+91-8618275906",
@@ -68,7 +68,7 @@ const projects = [
     projectName: "SJR PALAZZA CITY CLUB HOUSE",
     location: "SARJAPURA ROAD BENGALURU",
     client: "SJR PRIMECORPORATION PVT LTD",
-    projectValue: "₹ 1.13 crore",
+    projectValue: "₹ 1.13 Cr",
     contactPerson: {
       name: "Mr Rajendra Kumar",
       phone: "+91-86182 75906",
@@ -89,7 +89,7 @@ const projects = [
     projectName: "KARNATAKA POLICE HOUSING CORPORATION",
     location: "NAGARABHAVI, BENGALURU",
     client: "GREENGLOBAL SOLUTIONS BENGALURU",
-    projectValue: "₹ 30 lakhs",
+    projectValue: "₹ 30 L",
     contactPerson: {
       name: "Mr Vishak K G",
       phone: "+91-9845802029",
@@ -106,7 +106,7 @@ const projects = [
     projectName: "KARNATAKA POLICE HOUSING CORPORATION",
     location: "NAGARABHAVI, BENGALURU",
     client: "RPP INFRA PROJECTS LTD BENGALURU",
-    projectValue: "₹ 32 lakhs",
+    projectValue: "₹ 32 L",
     contactPerson: {
       name: "Mr Karthikeyan",
     },
@@ -122,7 +122,7 @@ const projects = [
     projectName: "KARNATAKA STATE POLICE TRAINING SCHOOL",
     location: "JYOTHI NAGAR MYSORE",
     client: "VINODKUMAR CONSTRUCTIONS",
-    projectValue: "₹ 20 lakhs",
+    projectValue: "₹ 20 L",
     contactPerson: {
       name: "Mr Vinod Kumar",
       phone: "+91-9880542272",
@@ -139,7 +139,7 @@ const projects = [
     projectName: "AKSHAYA  REGALIA",
     location: "UTTARA HALLI BENGALURU",
     client: "AKSHAYA REGALIA.A.O A BENGALURU",
-    projectValue: "₹ 8 lakhs",
+    projectValue: "₹ 8 L",
     contactPerson: {
       name: "Mr Prasanna Bhat",
       phone: "+91-9742822822",
@@ -152,28 +152,11 @@ const projects = [
     products:
       "Fire Hydrant System, Sprinkler System, Fire Alarm System and Fire Extinguishers in all Floors",
   },
-  // {
-  //   projectName: "ROSETTA RESORTS",
-  //   location: "SAKALESHPURA HASSAN",
-  //   client: "FERNS ESTATES",
-  //   projectValue: "₹ 8 lakhs",
-  //   contactPerson: {
-  //     name: "Mr Prahalad Rao",
-  //     phone: "+91-8050694564",
-  //   },
-  //   // projectDetails: [
-  //   //   { label: "No of Blocks", value: "Auditorium, School , And Office Space" },
-  //   //   { label: "No of Floors", value: "Ground + 4 floors" },
-  //   // ],
-  //   image: rosseta,
-  //   // products:
-  //   //   "Fire Hydrant System, Sprinkler System, Fire Alarm System and Fire Extinguishers in all Floors",
-  // },
   {
     projectName: "SJR  VOGUE RESIDENCES",
     location: "WHITEFIELD BENGALURU",
     client: "SJR PRIMECORPORATION PVT LTD",
-    projectValue: "₹ 19 lakhs",
+    projectValue: "₹ 19 L",
     contactPerson: {
       name: "Mr Vinay Kumar",
     },
@@ -189,7 +172,7 @@ const projects = [
     projectName: "UNION CITY",
     location: "WHITEFIELD BENGALURU",
     client: "PRIMECO BENGALURU",
-    projectValue: "₹ 33 lakhs",
+    projectValue: "₹ 33 L",
     contactPerson: {
       name: "Mr Syed Zeeshan",
       phone: "+91-9035881351",
@@ -209,7 +192,7 @@ const projects = [
     projectName: "SPECTRUM HOTEL BLOCK",
     location: "BANNERAGHATTA ROAD BENGALURU",
     client: "PRIMECO BENGALURU",
-    projectValue: "₹ 81 lakhs",
+    projectValue: "₹ 81 L",
     contactPerson: {
       name: "Mr Syed Zeeshan",
       phone: "+91-9035881351",
@@ -226,7 +209,7 @@ const projects = [
     projectName: "SJR PALAZZA CITY",
     location: "SARJAPURA ROAD BENGALURU",
     client: "SJR PRIMECORPORATION PVT LTD",
-    projectValue: "₹ 21 lakhs",
+    projectValue: "₹ 21 L",
     contactPerson: {
       name: "Mr Rajendra Kumar",
       phone: "+91-86182 75906",
@@ -328,13 +311,14 @@ const CompletedProject = () => {
           <div className="h-1 w-20 bg-gray-700 rounded"></div>
         </div>
         <p className="lg:w-1/2 w-full leading-relaxed text-gray-900 mb-16">
-          Over the years, Durga Engineers has successfully completed numerous
-          projects across various sectors, implementing robust fire protection
-          and safety systems. From residential complexes to large industrial
-          plants, we have delivered high-quality solutions that meet both
-          national and international fire safety standards. Our commitment to
-          excellence ensures that each project is completed with precision,
-          safeguarding lives and assets for years to come.
+          Over the years, we have successfully completed numerous projects
+          across various sectors, implementing robust fire protection and safety
+          systems. From residential complexes to large industrial plants, we
+          have delivered high-quality solutions that meet <b>NBC</b> and{" "}
+          <b>NFPA</b> standards. Our commitment with the clients is to ensure
+          that each project will be completed with precision, safeguarding lives
+          and assets for years to come. Our moto is we delivery the projects
+          which has zero re-work post handover.
         </p>
         <div className="flex flex-wrap -m-3">
           {projects.map((project, index) => (
@@ -362,10 +346,10 @@ const CompletedProject = () => {
                       </p>
                     ))}
                   </div>
-                  <p className="leading-relaxed text-black mb-2">
+                  {/* <p className="leading-relaxed text-black mb-2">
                     {project?.products ? <strong>Products:</strong> : null}{" "}
                     {project.products}
-                  </p>
+                  </p> */}
                   {/* Use mt-auto to push the value to the bottom */}
                   <div className="mt-auto flex justify-end">
                     <span className="text-red-500 text-sm font-semibold">

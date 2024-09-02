@@ -6,7 +6,7 @@ const projects = [
     projectName: "THE GREENS",
     location: "ANEKAL, BENGALURU",
     // client: "SANCHAYA ESTATES",
-    projectValue: "₹ 3.7 crore",
+    projectValue: "₹ 3.7 Cr",
     // contactPerson: {
     //   name: "Mr Nagaraj",
     //   phone: "9876543210",
@@ -34,14 +34,15 @@ const OngoingProject = () => {
             <div className="h-1 w-20 bg-gray-700 rounded"></div>
           </div>
           <p className="lg:w-1/2 w-full leading-relaxed text-gray-900">
-            Durga Engineers is currently engaged in several key projects,
-            bringing cutting-edge fire protection systems to high-rise
-            residential buildings, commercial establishments, and industrial
-            facilities. These ongoing projects showcase our expertise in
-            implementing comprehensive fire safety measures, including fire
-            hydrants, sprinkler systems, alarm systems, and more. Our team works
-            closely with clients to ensure timely execution and compliance with
-            the latest fire safety standards.
+            We are currently engaged in several key projects, introducing
+            cutting-edge fire protection systems to high-rise residential
+            buildings, commercial establishments, and industrial facilities.
+            These ongoing projects showcase our expertise in implementing
+            comprehensive fire safety measures that are needed of the day,
+            including fire hydrants, sprinkler systems, alarm systems, and more.
+            We are connected with the industrial experts and constantly upgrade
+            ourselves to closely work with the clients and will ensure timely
+            execution and compliance with the latest fire safety standards.
           </p>
         </div>
         <div className="container px-5 py-12 mx-auto">
@@ -83,9 +84,9 @@ const OngoingProject = () => {
                         </p>
                       ))}
                     </div>
-                    <p className="leading-relaxed text-black mb-2">
+                    {/* <p className="leading-relaxed text-black mb-2">
                       <strong>Products:</strong> {project.products}
-                    </p>
+                    </p> */}
                     <div className="flex justify-between items-end">
                       <span></span>{" "}
                       {/* Empty span to push project value to the right */}

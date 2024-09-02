@@ -30,8 +30,8 @@ const page = () => {
                 height="100%"
                 title="map"
                 className="absolute inset-0"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.569795314409!2d77.5397405!3d12.999345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d98102ab1ed%3A0x3dd60cf1c7bdcdaf!2s72%2C%203rd%20Cross%20Rd%2C%20Mahatma%20Gandhi%20Nagar%2C%20Basaveshwar%20Nagar%2C%20Bengaluru%2C%20Karnataka%20560079!5e0!3m2!1sen!2sin!4v1724355811412!5m2!1sen!2sin"
-                // <iframe src="" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3887.6169066549623!2d77.535626!3d12.996336999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDU5JzQ2LjgiTiA3N8KwMzInMDguMyJF!5e0!3m2!1sen!2sin!4v1725284742070!5m2!1sen!2sin"
+                // <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3887.6169066549623!2d77.535626!3d12.996336999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDU5JzQ2LjgiTiA3N8KwMzInMDguMyJF!5e0!3m2!1sen!2sin!4v1725284742070!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 loading="lazy"
                 style={{
                   filter: "grayscale(1) contrast(1.2) opacity(0.8)",

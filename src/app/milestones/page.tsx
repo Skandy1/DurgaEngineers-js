@@ -140,15 +140,14 @@ export default function Home() {
               Yearly Growth Insights
             </h2>
             <p className="text-gray-800 text-justify">
-              Over the last five years, there has been a steady increase in
-              project values, with a massive spike in 2024, indicating growing
-              market demand and investment opportunities.
-            </p>
-            <p className="text-gray-800 text-justify mt-4">
-              The total value surged from 30 lakhs in 2019 to an impressive
-              36.58 crore in 2024, marking a significant growth trajectory. Our
-              projects reflect this growth with strategic investments in various
-              sectors.
+              We began our adventure in 2019-20 with a project valued at 30
+              lakh, and today, when we end the calendar year 2024-25, we will be
+              completing the largest project of our venture valued at 3.65
+              crore. Project sizes have been rising steadily over the past five
+              years, with a huge surge in 2024; this indicates the company's
+              potential, which is in line with the expanding market demand.
+              Apart from bagging bigger projects year on year, we have
+              diversified the growth trajectory with the strategic presence.
             </p>
           </div>
         </div>
