@@ -144,7 +144,7 @@ export default function Home() {
               lakh, and today, when we end the calendar year 2024-25, we will be
               completing the largest project of our venture valued at 3.65
               crore. Project sizes have been rising steadily over the past five
-              years, with a huge surge in 2024; this indicates the company's
+              years, with a huge surge in 2024; this indicates the company
               potential, which is in line with the expanding market demand.
               Apart from bagging bigger projects year on year, we have
               diversified the growth trajectory with the strategic presence.
