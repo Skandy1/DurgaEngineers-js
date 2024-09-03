@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
+import raghu from '@/assets/raghu.jpeg';
+import sesha from '@/assets/sheshadri.jpeg';
 
 const page = () => {
   return (
@@ -44,22 +47,36 @@ const page = () => {
     </div>
   </div>
 </section>
-  {/* Our team 1 */}
+  {/* Our team 1 - Raghu */}
 <section className="text-gray-600 body-font">
 <div className="flex flex-col text-center w-full mb-10 mt-4">
       <h1 className="sm:text-4xl text-2xl font-semibold title-font text-red-500">Our Team</h1>
     </div>
   <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
-    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-      <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"/>
+    <div className="lg:w-1/3 lg:h-1/4 md:w-1/2 w-5/6 mb-10 md:mb-0">
+      <Image className=" object-cover object-center rounded" alt="hero" src={raghu}/>
     </div>
-    <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">“Raghavendra E O“
+    <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left ">
+      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Raghavendra E O
       </h1>
-      <p className="mb-8 leading-relaxed text-justify text-gray-900">He comes with a decade of experience in the firefighting industry, having worked in Qatar and Saudi Arabia as a project manager in operations for Armour Fire Fighting Company LLC. Co. and Arab Projects for Safety Co. Ltd.
+      <p className='mb-3 text-red-400'>Director, Sales & Operation</p>
+      <p className="mb-8 leading-relaxed text-justify text-gray-900">I bring a decade of experience in the firefighting industry, having worked as a project manager in operations for <a className='text-blue-500' href="" target='blank'>Armour Fire Fighting Company LLC.</a> in Qatar and <a href="http://www.arabltd.sa/" className='text-blue-500' target='blank'>Arab Projects for Safety Co. Ltd.</a> in Saudi Arabia.
         <br/>
         <br/>
-In the past, he worked in the projects of Bhavini (Bharatiya vidhyut Prasara Nigam), Nuclear Power Plant, Kalpakkam, TN and accumulated extensive know-how in the domain of operations and has executed projects in the domains of FM 200, Novec systems, Kitchen wood systems, and URL & FM-approved fire pump rooms.</p>
+        Earlier in my career, I contributed to projects at Bhavini (Bharatiya Vidhyut Prasara Nigam) Nuclear Power Plant in Kalpakkam, TN, where I gained extensive expertise in operations. I've successfully executed projects in FM 200, Novec systems, kitchen hood systems, and UL & FM-approved fire pump rooms.</p>
+        <h3 className='sm:text-2xl text-2xl  font-medium text-red-400 '>Accomplishments</h3>
+        <div className=' md:w-1/2 ' >
+        <ul className='list-disc m-3'>
+          <li>Hotel Ezdar, Corriche Doha, Qatar</li>
+          <li>Naufar Rehabilitation Center, Qatar</li>
+          <li>Grand Mall, Qatar</li>
+          <li>Barwa Complex, Qatar</li>
+          <li>King Fahad cardiac Hospital, Saudi Arabia</li>
+          <li>King Fahad Military Hospital, Saudi Arabia</li>
+          <li>Imam Mohammad saud islamic university, Saudi Arabia </li>
+        </ul>
+        
+        </div>
     </div>
   </div>
 </section>
@@ -69,13 +86,14 @@ In the past, he worked in the projects of Bhavini (Bharatiya vidhyut Prasara Nig
     <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Sheshadri H V
       </h1>
-      <p className="mb-8 leading-relaxed">He comes with close to two decades of experience in firefighting industry background and worked in KAFEX as Project Manager Operations for 13 years.
+      <p className='mb-3 text-red-400'>Director, Customer Support</p>
+      <p className="mb-8 leading-relaxed">I bring close to two decades of experience in the firefighting industry, including 13 years as a Project Manager in Operations at KAFEX.
         <br />
         <br />
-In the past, he has accumulated decades of extensive know-how in the domain of customer support, having served as a customer interaction coordinator in the banking domain.</p>
+        In addition to my firefighting background, I've accumulated extensive know-how in customer support, having served as a customer interaction coordinator in the banking domain.</p>
     </div>
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"/>
+    <Image className="object-cover object-center rounded" alt="hero" src={sesha}/>
     </div>
   </div>
 </section>
