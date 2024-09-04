@@ -264,7 +264,7 @@ const page = () => {
               </a>
               <div className="mt-4">
                 <h2 className="text-gray-900 title-font text-lg font-medium">
-                  Yard Hydrant
+                  Branch Pipe
                 </h2>
               </div>
             </div>

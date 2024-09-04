@@ -33,7 +33,7 @@ const CarouselBannerWrapper = () => {
               Your trusted partner for advanced fire protection and safety
               solutions.
             </p>
-            <Link href="/product">
+            <Link href="/services">
               <motion.button
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -61,14 +61,14 @@ const CarouselBannerWrapper = () => {
             <p className="mt-4 text-lg">
               Providing effective fire security systems for clients locations.
             </p>
-            <Link href="/product">
+            <Link href="/milestones">
               <motion.button
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 1, duration: 0.5 }}
                 className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 text-lg cursor-pointer mt-6 rounded-full"
               >
-                Contact Us
+                Learn More
               </motion.button>
             </Link>
           </motion.div>
@@ -90,14 +90,16 @@ const CarouselBannerWrapper = () => {
               Ensuring your fire protection systems meet all the safety
               standards.
             </p>
-            <motion.button
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 1, duration: 0.5 }}
-              className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 text-lg cursor-pointer mt-6 rounded-full"
-            >
-              Get Expert Advice
-            </motion.button>
+            <Link href="/contact">
+              <motion.button
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 1, duration: 0.5 }}
+                className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 text-lg cursor-pointer mt-6 rounded-full"
+              >
+                Get Expert Advice
+              </motion.button>
+            </Link>
           </motion.div>
         </div>
       ),
@@ -117,14 +119,16 @@ const CarouselBannerWrapper = () => {
               Keep your fire systems fully operational with our Annual
               Maintenance Contracts (AMC).
             </p>
-            <motion.button
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 1, duration: 0.5 }}
-              className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded-full text-lg cursor-pointer mt-6"
-            >
-              Contact Us
-            </motion.button>
+            <Link href="/contact">
+              <motion.button
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 1, duration: 0.5 }}
+                className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded-full text-lg cursor-pointer mt-6"
+              >
+                Contact Us
+              </motion.button>
+            </Link>
           </motion.div>
         </div>
       ),
