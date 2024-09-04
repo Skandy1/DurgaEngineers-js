@@ -129,7 +129,7 @@ const page = () => {
               Earlier in my career, I contributed to projects at Bhavini
               (Bharatiya Vidhyut Prasara Nigam) Nuclear Power Plant in
               Kalpakkam, TN, where I gained extensive expertise in operations.
-              I've successfully executed projects in FM 200, Novec systems,
+              I&apos;ve successfully executed projects in FM 200, Novec systems,
               kitchen hood systems, and UL & FM-approved fire pump rooms.
             </p>
             <div className="flex flex-col md:flex-row justify-between items-center">
@@ -175,7 +175,7 @@ const page = () => {
               KAFEX.
               <br />
               <br />
-              In addition to my firefighting background, I've accumulated
+              In addition to my firefighting background, I&apos;ve accumulated
               extensive know-how in customer support, having served as a
               customer interaction coordinator in the banking domain.
             </p>
