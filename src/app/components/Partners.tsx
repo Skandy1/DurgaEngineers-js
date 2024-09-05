@@ -16,6 +16,7 @@ import rosetta from "@/assets/Rosetta.jpg";
 import Autoplay from "embla-carousel-autoplay";
 import sjr from "@/assets/sjr.jpg";
 import Image from "next/image";
+import bata from '@/assets/bata.png';
 
 export default function CarouselSpacing() {
   const partners = [
@@ -24,6 +25,9 @@ export default function CarouselSpacing() {
     },
     {
       logo: sjr,
+    },
+    {
+      logo:bata
     },
 
     {
