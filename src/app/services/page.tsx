@@ -16,6 +16,11 @@ import falarm from "@/assets/products/falarm.jpg";
 import yhydrant from "@/assets/products/yhydrant.jpg";
 import drum from "@/assets/products/drum.jpg";
 import door from "@/assets/products/door.png";
+import one from '@/assets/inspection/one.png';
+import two from '@/assets/inspection/two.png';
+import three from '@/assets/inspection/three.png';
+import four from '@/assets/inspection/four.png';
+import { on } from "events";
 
 const page = () => {
   return (
@@ -122,76 +127,26 @@ const page = () => {
             At Durga Engineers, we specialize in comprehensive fire inspection services designed to ensure the safety of your building, assets, and occupants. Our team of qualified experts conducts regular fire inspections to assess your fire safety systems and ensure they comply with the latest fire safety regulations and standards.
             </p>
           </div>
-          <div className="flex flex-wrap -m-4">
-            <div className="xl:w-1/4 md:w-1/2 p-4">
-              <div className="bg-gray-100 p-6 rounded-lg">
-                <Image
-                  className="h-40 rounded w-full object-cover object-center mb-6"
-                  src={design}
-                  alt="content"
-                />
-                <h2 className="text-lg text-red-400 font-bold title-font mb-4">
-                  Design & Consultation
-                </h2>
-                <p className="leading-relaxed text-base">
-                  We design customized fire protection systems, ensuring safety,
-                  compliance, and seamless integration with your infrastructure
-                  using the latest technologies.{" "}
-                </p>
-              </div>
-            </div>
-            <div className="xl:w-1/4 md:w-1/2 p-4">
-              <div className="bg-gray-100 p-6 rounded-lg">
-                <Image
-                  className="h-40 rounded w-full object-cover object-center mb-6"
-                  src={installation}
-                  alt="content"
-                />
-                <h2 className="text-lg text-red-400 font-bold title-font mb-4">
-                  Installation
-                </h2>
-                <p className="leading-relaxed text-base">
-                  We offer expert installation of fire protection systems,
-                  ensuring reliable, compliant setups that integrate seamlessly
-                  with your existing infrastructure.
-                </p>
-              </div>
-            </div>
-            <div className="xl:w-1/4 md:w-1/2 p-4">
-              <div className="bg-gray-100 p-6 rounded-lg">
-                <Image
-                  className="h-40 rounded w-full object-cover object-center mb-6"
-                  src={productlist}
-                  alt="content"
-                />
-                <h2 className="text-lg text-red-400 font-bold title-font mb-4">
-                  Resale of Products
-                </h2>
-                <p className="leading-relaxed text-base">
-                  We offer a wide range of high-quality fire protection items
-                  for sale, including alarms, extinguishers, and suppression
-                  systems.
-                </p>
-              </div>
-            </div>
-            <div className="xl:w-1/4 md:w-1/2 p-4">
-              <div className="bg-gray-100 p-6 rounded-lg">
-                <Image
-                  className="h-40 rounded w-full object-cover object-center mb-6"
-                  src={amc}
-                  alt="content"
-                />
-                <h2 className="text-lg text-red-400 font-bold title-font mb-4">
-                  Annual Maintenance Contract{" "}
-                </h2>
-                <p className="leading-relaxed text-base">
-                  Our AMC ensures regular inspections, maintenance, and prompt
-                  repairs for fire protection systems, keeping them in optimal
-                  working condition year-round.
-                </p>
-              </div>
-            </div>
-          </div>
+          <div className="container px-5 py-2 mx-auto flex flex-wrap">
+    <div className="flex flex-wrap md:-m-2 -m-1">
+      <div className="flex flex-wrap w-1/2">
+        <div className="md:p-2 p-1 w-full">
+          <Image alt="gallery" className="w-full object-cover h-full object-center block" src={one}/>
+        </div>
+        <div className="md:p-2 p-1 w-full">
+          <Image alt="gallery" className="w-full h-full object-cover object-center block" src={two}/>
+        </div>
+      </div>
+      <div className="flex flex-wrap w-1/2">
+      <div className="md:p-2 p-1 w-full">
+          <Image alt="gallery" className="w-full object-cover h-full object-center block" src={three}/>
+        </div>
+        <div className="md:p-2 p-1 w-full">
+          <Image alt="gallery" className="w-full h-full object-cover object-center block" src={four}/>
+        </div>
+      </div>
+    </div>
+  </div> 
         </div>
       </section>
       {/* Products */}

@@ -17,6 +17,8 @@ import Autoplay from "embla-carousel-autoplay";
 import sjr from "@/assets/sjr.jpg";
 import Image from "next/image";
 import bata from '@/assets/bata.png';
+import indya from '@/assets/indya.png';
+import primeco from '@/assets/primeco.png';
 
 export default function CarouselSpacing() {
   const partners = [
@@ -39,6 +41,12 @@ export default function CarouselSpacing() {
     {
       logo: megatron,
     },
+    {
+      logo: indya,
+    },
+    {
+      logo: primeco,
+    },
   ];
   return (
     <section className="text-gray-600 body-font">
@@ -48,7 +56,7 @@ export default function CarouselSpacing() {
             Our Customers
           </h1>
           <Carousel
-            className="w-3/4 items-center text-center container"
+            className="w-3/4 items-center text-center container mt-6"
             opts={{
               align: "start",
               loop: true,
@@ -63,7 +71,7 @@ export default function CarouselSpacing() {
               {partners.map((_, index) => (
                 <CarouselItem
                   key={index}
-                  className="pl-1 md:basis-1/3 lg:basis-1/3"
+                  className="pl-1 md:basis-1/4 lg:basis-1/4"
                 >
                   <div className="p-1">
                     <Card>

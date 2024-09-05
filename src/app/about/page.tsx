@@ -112,7 +112,7 @@ const page = () => {
             <p className="mb-8 leading-relaxed text-justify text-gray-900">
               I bring a decade of experience in the firefighting industry,
               having worked as a project manager in operations for{" "}
-              <a className="text-blue-500" href="" target="blank">
+              <a className="text-blue-500" href="" target="_blank">
                 Armour Fire Fighting Company LLC.
               </a>{" "}
               in Qatar and{" "}
@@ -126,7 +126,7 @@ const page = () => {
               in Saudi Arabia.
               <br />
               <br />
-              Earlier in my career, I contributed to projects at <a href="" target="blank" className="text-blue-500">Bhavini
+              Earlier in my career, I contributed to projects at <a href="" target="_blank" className="text-blue-500">Bhavini
               (Bharatiya Vidhyut Prasara Nigam) Nuclear Power Plant in
               Kalpakkam, TN</a>, where I gained extensive expertise in operations.
               I&apos;ve successfully executed projects in FM 200, Novec systems,
