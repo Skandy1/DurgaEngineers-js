@@ -16,6 +16,11 @@ import falarm from "@/assets/products/falarm.jpg";
 import yhydrant from "@/assets/products/yhydrant.jpg";
 import drum from "@/assets/products/drum.jpg";
 import door from "@/assets/products/door.png";
+import one from '@/assets/inspection/one.png';
+import two from '@/assets/inspection/two.png';
+import three from '@/assets/inspection/three.png';
+import four from '@/assets/inspection/four.png';
+import { on } from "events";
 
 const page = () => {
   return (
@@ -106,6 +111,42 @@ const page = () => {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+      {/* Fire Inspection  */}
+      <section className="text-gray-600 body-font">
+        <div className="container px-5 py-10 mx-auto">
+          <div className="flex flex-wrap w-full mb-20">
+            <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
+              <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-red-500">
+                Fire Inspection
+              </h1>
+              <div className="h-1 w-20 bg-gray-700 rounded"></div>
+            </div>
+            <p className="lg:w-1/2 w-full leading-relaxed text-gray-900">
+            At Durga Engineers, we specialize in comprehensive fire inspection services designed to ensure the safety of your building, assets, and occupants. Our team of qualified experts conducts regular fire inspections to assess your fire safety systems and ensure they comply with the latest fire safety regulations and standards.
+            </p>
+          </div>
+          <div className="container px-5 py-2 mx-auto flex flex-wrap">
+    <div className="flex flex-wrap md:-m-2 -m-1">
+      <div className="flex flex-wrap w-1/2">
+        <div className="md:p-2 p-1 w-full">
+          <Image alt="gallery" className="w-full object-cover h-full object-center block" src={one}/>
+        </div>
+        <div className="md:p-2 p-1 w-full">
+          <Image alt="gallery" className="w-full h-full object-cover object-center block" src={two}/>
+        </div>
+      </div>
+      <div className="flex flex-wrap w-1/2">
+      <div className="md:p-2 p-1 w-full">
+          <Image alt="gallery" className="w-full object-cover h-full object-center block" src={three}/>
+        </div>
+        <div className="md:p-2 p-1 w-full">
+          <Image alt="gallery" className="w-full h-full object-cover object-center block" src={four}/>
+        </div>
+      </div>
+    </div>
+  </div> 
         </div>
       </section>
       {/* Products */}

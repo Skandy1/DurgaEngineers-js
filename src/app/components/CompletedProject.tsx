@@ -15,6 +15,23 @@ import sjrpc from "@/assets/projects/sjrpc.png";
 import Image from "next/image";
 const projects = [
   {
+    projectName: "ROSETTA",
+    location: "SAKLESHPURA, HASSAN",
+    client: "AKSHAYA REGALIA.A.O A BENGALURU",
+    projectValue: "₹ 8 L",
+    contactPerson: {
+      name: "Mr Prasanna Bhat",
+      phone: "+91-9742822822",
+    },
+    projectDetails: [
+      { label: "No of Blocks", value: "6 Blocks" },
+      { label: "No of Floors", value: "Ground + 4 Floors" },
+    ],
+    image: rosseta,
+    products:
+      "Fire Hydrant System, Sprinkler System, Fire Alarm System and Fire Extinguishers in all Floors",
+  },
+  {
     projectName: "AKSHAYA  REGALIA",
     location: "UTTARA HALLI, BENGALURU",
     client: "AKSHAYA REGALIA.A.O A BENGALURU",

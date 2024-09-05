@@ -112,7 +112,7 @@ const page = () => {
             <p className="mb-8 leading-relaxed text-justify text-gray-900">
               I bring a decade of experience in the firefighting industry,
               having worked as a project manager in operations for{" "}
-              <a className="text-blue-500" href="" target="blank">
+              <a className="text-blue-500" href="" target="_blank">
                 Armour Fire Fighting Company LLC.
               </a>{" "}
               in Qatar and{" "}
@@ -126,9 +126,9 @@ const page = () => {
               in Saudi Arabia.
               <br />
               <br />
-              Earlier in my career, I contributed to projects at Bhavini
+              Earlier in my career, I contributed to projects at <a href="" target="_blank" className="text-blue-500">Bhavini
               (Bharatiya Vidhyut Prasara Nigam) Nuclear Power Plant in
-              Kalpakkam, TN, where I gained extensive expertise in operations.
+              Kalpakkam, TN</a>, where I gained extensive expertise in operations.
               I&apos;ve successfully executed projects in FM 200, Novec systems,
               kitchen hood systems, and UL & FM-approved fire pump rooms.
             </p>
@@ -138,8 +138,8 @@ const page = () => {
                   Accomplishments
                 </h3>
                 <ul className="list-disc m-3">
-                  <li>Hotel Ezdar, Corriche Doha, Qatar</li>
-                  <li>Naufar Rehabilitation Center, Qatar</li>
+                  <li>Hotel Ezdan, Corniche Doha, Qatar</li>
+                  <li>Naugar Rehabilitation Center, Qatar</li>
                   <li>Grand Mall, Qatar</li>
                   <li>Barwa Complex, Qatar</li>
                   <li>King Fahad cardiac Hospital, Saudi Arabia</li>
@@ -151,7 +151,7 @@ const page = () => {
               <div className="md:w-2/5 mt-4 md:mt-0 items-center justify-center">
                 <Image
                   src={certificate}
-                  width={400}
+                  width={500}
                   alt="Accomplishment image"
                   className="w-500 h-400 object-cover"
                 />
