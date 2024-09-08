@@ -4,6 +4,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Image from "next/image";
 import heroImg from "@/assets/heroImg.jpg";
+import Link from "next/link";
 
 const HeroSection = () => {
   const controls = useAnimation();
@@ -61,6 +62,7 @@ const HeroSection = () => {
             ongoing maintenance through our Annual Maintenance Contracts (AMC).
           </p>
           <div className="flex justify-center">
+            <Link href="/services">
             <motion.button
               className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded-full text-lg"
               whileHover={{ scale: 1.05 }}
@@ -68,6 +70,8 @@ const HeroSection = () => {
             >
               Discover More
             </motion.button>
+            </Link>
+            <Link href="/contact">
             <motion.button
               className="ml-4 inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-400 rounded-full text-lg"
               whileHover={{ scale: 1.05 }}
@@ -75,6 +79,7 @@ const HeroSection = () => {
             >
               Contact us
             </motion.button>
+            </Link>
           </div>
         </motion.div>
         <motion.div
