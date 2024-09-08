@@ -139,7 +139,7 @@ const page = () => {
                 </h3>
                 <ul className="list-disc m-3">
                   <li>Hotel Ezdan, Corniche Doha, Qatar</li>
-                  <li>Naugar Rehabilitation Center, Qatar</li>
+                  <li>Naufar Rehabilitation Center, Qatar</li>
                   <li>Grand Mall, Qatar</li>
                   <li>Barwa Complex, Qatar</li>
                   <li>King Fahad cardiac Hospital, Saudi Arabia</li>
