@@ -143,7 +143,7 @@ const page = () => {
                   <li>Grand Mall, Qatar</li>
                   <li>Barwa Complex, Qatar</li>
                   <li>King Fahad cardiac Hospital, Saudi Arabia</li>
-                  <li>King Fahad Military Hospital, Saudi Arabia</li>
+                  <li>King Faisal Military Hospital, Saudi Arabia</li>
                   <li>Imam Mohammad Saud Islamic University, Saudi Arabia</li>
                 </ul>
               </div>
@@ -168,7 +168,7 @@ const page = () => {
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
               Sheshadri H V
             </h1>
-            <p className="mb-3 text-red-400">Director, Customer Support</p>
+            <p className="mb-3 text-red-400">Director, Marketing & Customer Support</p>
             <p className="mb-8 leading-relaxed">
               I bring close to two decades of experience in the firefighting
               industry, including 13 years as a Project Manager in Operations at

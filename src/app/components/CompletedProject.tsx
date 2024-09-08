@@ -24,8 +24,7 @@ const projects = [
       phone: "+91-9742822822",
     },
     projectDetails: [
-      { label: "No of Blocks", value: "6 Blocks" },
-      { label: "No of Floors", value: "Ground + 4 Floors" },
+      { label: "Venue", value: "Holiday In" },
     ],
     image: rosseta,
     products:
