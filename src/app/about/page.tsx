@@ -94,7 +94,7 @@ const page = () => {
             Our Team
           </h1>
         </div>
-        <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
+        {/* <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
           <div className="lg:w-1/4 md:w-1/3 w-5/6 mb-8 md:mb-0">
             <Image
               className="object-cover object-center rounded"
@@ -158,17 +158,17 @@ const page = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
-      <hr className="container my-20" />
+      <hr className="container" />
       {/* Our team 2 - Sheshadri */}
       <section className="text-gray-600 body-font">
-        <div className="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center">
+        <div className="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-12 md:pr-8 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
               Sheshadri H V
             </h1>
-            <p className="mb-3 text-red-400">Director, Marketing & Customer Support</p>
+            <p className="mb-3 text-red-400">Managing Director & CEO - Company Management</p>
             <p className="mb-8 leading-relaxed">
               I bring close to two decades of experience in the firefighting
               industry, including 13 years as a Project Manager in Operations at

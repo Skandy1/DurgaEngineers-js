@@ -61,7 +61,6 @@ const page = () => {
                     PHONE
                   </h2>
                   <p className="leading-relaxed text-red-400">
-                    +91 8095254515 <br />
                     +91 9945299352
                   </p>
                 </div>
